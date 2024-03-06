@@ -1,15 +1,33 @@
 {
-    "activos":{
-        "id": "X5X",
+    "assets":[
+        {
+        "Id": "X5X",
         "codTransaccion": "SSXX",
         "nroFormulario": "12332",
-        "idMarca": "SLXIV",
-        "idCategoria": "XXX",
-        "idTipo": "SSXX",
+        "IdMarca": "SLXIV",
+        "IdCategoria": "XXX",
+        "IdTipo": "SSXX",
         "valorUnitario": "12332",
-        "idProvedor": "SLXIV",
+        "IdProvedor": "SLXIV",
         "nroSerial": "ASDX",
-        "idEmpresaResponsable": "SSLXX",
-        "idEstado": "312320"
-    }
+        "IdEmpresaResponsable": "SSLXX",
+        "IdEstado": "312320"
+        }
+    ],
+
+    "asignation":[
+        {
+            "Id": "",
+            "fecha": "",
+            "IdResponsable": ""
+        }
+    ],
+
+    "categoriaActivo":[
+        {
+            "Id": "",
+            "nombre": ""
+        }
+    ]
+    
 }
