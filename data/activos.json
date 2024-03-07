@@ -23,11 +23,94 @@
         }
     ],
 
-    "categoriaActivo":[
+    "activeCategory":[
         {
             "Id": "",
             "nombre": ""
         }
+    ],
+
+    "detailMovement":[
+        {
+            "id": "1240588608",
+            "fecha": "",
+            "idActivo": "",
+            "comentario": "",
+            "idAsignacion": ""
+        }
+    ],
+
+    "state":[
+        {
+            "id": "",
+            "nombre": ""
+        }
+    ],
+
+    "historyActive":[
+        {
+            "id": "",
+            "nombre": "",
+            "email": "",
+            "fecha": "",
+            "idResponsable": "",
+            "idEstado": ""
+        }
+    ],
+
+    "marks":[
+        {
+            "id": "",
+            "nombre": ""
+        }
+    ],
+
+    "people":[
+        {
+            "id": "1240588608",
+            "nombre": "",
+            "email": "",
+            "idTipoPersona": ""
+        }
+    ],
+
+    "supplier":[
+        {
+            "id": "",
+            "nombre": "",
+            "email": ""
+        }
+    ],
+
+    "telephonePerson":[
+        {
+            "id": "",
+            "nro": "",
+            "ubicacion": "",
+            "idPersona": ""
+        }
+    ],
+
+    "activeType":[
+        {
+            "id": "",
+            "nombre": "",
+            "email": ""
+        }
+    ],
+
+    "typeActiveMove":[
+        {
+            "id": "",
+            "nombre": ""
+        }
+    ],
+
+    "typePerson":[
+        {
+            "id": "",
+            "nombre": ""
+        }
     ]
-    
+
 }
