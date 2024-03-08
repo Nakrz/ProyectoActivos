@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/formSTL.css">
     <script src="js/app.js" defer></script>
+    <script src="js/addActivo.js" defer></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Activos Campus</title>
 </head>
@@ -16,10 +18,10 @@
         <ul>
             <li><a href="#" class="nav-title"><i class='bx bx-spreadsheet'></i>Activos</a>
                 <ul class="side-dropdown">
-					<li><a href="#"><i class='bx bx-add-to-queue'></i>Agregar</a></li>
-					<li><a href="#"><i class='bx bx-edit'></i>Editar</a></li>
-					<li><a href="#"><i class='bx bx-search-alt'></i>Buscar</a></li>
-					<li><a href="#"><i class='bx bx-trash'></i>Borrar</a></li>
+					<li><a href="#" data-form="agregar"><i class='bx bx-add-to-queue'></i>Agregar</a></li>
+					<li><a href="#" data-form="editar"><i class='bx bx-edit'></i>Editar</a></li>
+					<li><a href="#" data-form="buscar"><i class='bx bx-search-alt'></i>Buscar</a></li>
+					<li><a href="#" data-form="borrar"><i class='bx bx-trash'></i>Borrar</a></li>
 				</ul>
             </li>
             <br>
@@ -84,5 +86,7 @@
         </button>
     </div>
     <div class="contenido">
+        <gestor-activos></gestor-activos>
+    </div>    
 </body>
 </html>
