@@ -1,0 +1,62 @@
+/* Estilo de agregar  */
+
+.contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+}
+
+.agregar-activo {
+    width: 100%; 
+    padding: 20px;
+    color: #383838;
+    border: 5px solid #000000;
+    border-radius: 30px;
+    background-color: #abc4c6;
+}
+
+.nombreOPC{
+    text-align: center;
+}
+
+.agregar-activo div,
+.agregar-activo select {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.agregar-activo input[type="text"],
+.agregar-activo select {
+    width: calc(100% - 22px); 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.agregar-activo button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(77, 149, 207);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.agregar-activo button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .agregar-activo {
+        max-width: 90%;
+    }
+}
+

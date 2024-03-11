@@ -1,15 +1,133 @@
 {
-    "activos":{
-        "id": "X5X",
-        "codTransaccion": "SSXX",
-        "nroFormulario": "12332",
-        "idMarca": "SLXIV",
-        "idCategoria": "XXX",
-        "idTipo": "SSXX",
-        "valorUnitario": "12332",
-        "idProvedor": "SLXIV",
-        "nroSerial": "ASDX",
-        "idEmpresaResponsable": "SSLXX",
-        "idEstado": "312320"
+  "assets": [
+    {
+      "id": "",
+      "codTransaccion": "SSXX",
+      "nroFormulario": "12332",
+      "IdMarca": "SLXIV",
+      "IdCategoria": "XXX",
+      "IdTipo": "SSXX",
+      "valorUnitario": "12332",
+      "IdProvedor": "SLXIV",
+      "nroSerial": "ASDX",
+      "IdEmpresaResponsable": "SSLXX",
+      "IdEstado": "312320"
+    },
+    {
+      "id": "13e6",
+      "idActivo": "12332123asdd",
+      "codTransaccion": "asdasdasdadsa",
+      "nroFormulario": "sdasdasdasd",
+      "IdMarca": "LOGITECH",
+      "IdCategoria": "adsasdadsasd",
+      "IdTipo": "asdasd",
+      "valorUnitario": "asdasdasd",
+      "IdProveedor": "asd",
+      "nroSerial": "as",
+      "IdEmpresaResponsable": "21332213",
+      "IdEstado": "2123123"
+    },
+    {
+      "id": "0e03",
+      "idActivo": "12313223",
+      "codTransaccion": "dsasdasd",
+      "nroFormulario": "asdasdasdasdasd",
+      "IdMarca": "LOGITECH",
+      "IdCategoria": "Electrodomestico",
+      "IdTipo": "CPU",
+      "valorUnitario": "213123132",
+      "IdProveedor": "1231231",
+      "nroSerial": "2312312312",
+      "IdEmpresaResponsable": "31231231",
+      "IdEstado": "Dado de baja por Daño"
     }
+  ],
+  "asignation": [
+    {
+      "Id": "",
+      "fecha": "",
+      "IdResponsable": "",
+      "id": "0ddf"
+    }
+  ],
+  "activeCategory": [
+    {
+      "Id": "",
+      "nombre": "",
+      "id": "da5e"
+    }
+  ],
+  "detailMovement": [
+    {
+      "id": "1240588608",
+      "fecha": "",
+      "idActivo": "",
+      "comentario": "",
+      "idAsignacion": ""
+    }
+  ],
+  "state": [
+    {
+      "id": "",
+      "nombre": ""
+    }
+  ],
+  "historyActive": [
+    {
+      "id": "",
+      "nombre": "",
+      "email": "",
+      "fecha": "",
+      "idResponsable": "",
+      "idEstado": ""
+    }
+  ],
+  "marks": [
+    {
+      "id": "",
+      "nombre": ""
+    }
+  ],
+  "people": [
+    {
+      "id": "1240588608",
+      "nombre": "",
+      "email": "",
+      "idTipoPersona": ""
+    }
+  ],
+  "supplier": [
+    {
+      "id": "",
+      "nombre": "",
+      "email": ""
+    }
+  ],
+  "telephonePerson": [
+    {
+      "id": "",
+      "nro": "",
+      "ubicacion": "",
+      "idPersona": ""
+    }
+  ],
+  "activeType": [
+    {
+      "id": "",
+      "nombre": "",
+      "email": ""
+    }
+  ],
+  "typeActiveMove": [
+    {
+      "id": "",
+      "nombre": ""
+    }
+  ],
+  "typePerson": [
+    {
+      "id": "",
+      "nombre": ""
+    }
+  ]
 }
