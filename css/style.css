@@ -3,7 +3,6 @@
 }
 
 body {
-    background-color: rgb(63, 63, 63);
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -172,4 +171,3 @@ body {
     color: rgb(77, 149, 207);
     margin-right: 10px;
 }
-
