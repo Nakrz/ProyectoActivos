@@ -12,7 +12,7 @@
 
 
 
-Se utiliza boostrap para maquetar el sidebar y el navbar de la pagina, asi mismo para asignarle  iconos a cada categoria del menu.
+Se utiliza bootstrap para maquetar el sidebar y el navbar de la pagina, asi mismo para asignarle  iconos a cada categoria del menu.
 
 
 
